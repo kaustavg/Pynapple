@@ -1,5 +1,5 @@
-from card import Card
-from deck import Deck
+from Core.card import Card
+from Core.deck import Deck
 
 class Player:
     """

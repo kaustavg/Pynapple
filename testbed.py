@@ -1,9 +1,9 @@
-from card import Card
-from deck import Deck
-from eva import Eva
-from sim import Sim
-from player import *
-from game import Game
+from Core.card import Card
+from Core.deck import Deck
+from Core.eva import Eva
+from Bot.sim import Sim
+from Bot.player import *
+from Bot.game import Game
 
 # For testing purposes
 import time
@@ -74,4 +74,5 @@ def monte_test():
     print('Probability of villains winning: '+str(s.p_vils))
 
 
-monte_test()
+# monte_test()
+cProfile.run('time_test(100000)',sort=2)

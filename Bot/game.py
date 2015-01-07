@@ -1,5 +1,5 @@
-from deck import Deck
-from player import *
+from Core.deck import Deck
+from Bot.player import *
 
 class Game:
     """

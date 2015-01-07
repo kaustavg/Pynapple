@@ -1,6 +1,6 @@
-from deck import Deck
-from eva import Eva
-from game import Game
+from Core.deck import Deck
+from Core.eva import Eva
+from Bot.game import Game
 
 """
 TBD: Make other math stuff (like equity)
