@@ -74,5 +74,4 @@ def monte_test():
     print('Probability of villains winning: '+str(s.p_vils))
 
 
-# monte_test()
-cProfile.run('time_test(100000)',sort=2)
+monte_test()
