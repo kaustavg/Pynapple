@@ -74,4 +74,8 @@ def monte_test():
     print('Probability of villains winning: '+str(s.p_vils))
 
 
-monte_test()
+# monte_test()
+g = Game(2)
+g.dealplayer(0,3)
+g.dealplayer(1,12)
+print(g.vils.hole)

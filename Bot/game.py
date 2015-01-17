@@ -32,7 +32,3 @@ class Game:
         """
         self.comm += Deck.draw(self.deck,cards)
         self.n_comm += n_cards
-
-
-        
-        
